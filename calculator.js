@@ -48,5 +48,3 @@ Calculator.prototype.lexer = function(input){
 
 	return tokens;
 }
-var calc = new Calculator('1+1');
-console.log(calc.tokenStream);
